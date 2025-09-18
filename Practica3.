@@ -1,0 +1,89 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyM2B5veI3ZqixOkkLM6fD/m",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/AbdelAlejandroGarciaTorres/unidad1/blob/main/Practica3.\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 2,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "N_OcEik0DLue",
+        "outputId": "e4eeda56-6708-4573-a9c8-48f27a2dbdd3"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "10\n"
+          ]
+        }
+      ],
+      "source": [
+        "import numpy as np\n",
+        "arreglo=np.array([[1,2,3,4,5],[6,7,8,9,10]])\n",
+        "print(arreglo[1][4])\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "xsCtR8AcKhkC"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 10,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "de8501da-e75b-41c4-c7ac-b19ab302d432",
+        "id": "rrRECT0WKh-I"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "6\n"
+          ]
+        }
+      ],
+      "source": [
+        "import numpy as np\n",
+        "arreglo=np.array([[[1,2,3],[4,5,6],[7,8,9],[10,11,12]]])\n",
+        "print(arreglo[0][1][2])\n"
+      ]
+    }
+  ]
+}
